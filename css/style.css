@@ -1056,7 +1056,7 @@ margin-bottom: 60px;}
 .parent-setting .row .inside .taps ul{text-align: right;}
 .parent-setting .row .inside .taps ul .active{color: #000;background-color: #E6E6E6;}
 .parent-setting .row .inside .taps ul li{color: #C6C6C6;padding: 15px;cursor: pointer;}
-.parent-setting .row .inside .btn{margin: auto;display: flex;}
+.parent-setting .row .inside .btn{margin: auto;display: flex;margin-top: 15px;}
 .parent-setting .row .profile-overview{text-align: justify;background-color: #F7F7F7;padding: 27px;margin-top: 200px;margin-bottom: 20px;}
 .parent-setting .row .profile-overview .tap .active{background-color: #159DD7;}
 .parent-setting .row .profile-overview .tap > div{line-height: 42px;width: 100px;height: 100px;margin-left: 20px;float: right;background-color: #C6C7CC;text-align: center;color: #252526;font-size: 23px;cursor: pointer;}
@@ -1076,6 +1076,21 @@ margin-bottom: 60px;}
 .parent-setting .row .myChildren .desc p{color:#949599;font-size: 18px;}
 .parent-setting .row .myChildren .info button{width: 120px;}
 .parent-setting .row .myChildren .info{	margin-top: 31px;font-size: 23px;color: #212529;}
+.parent-setting .row .profile-setting .form-inline{width: 700px;background-color: #F7F7F7;padding: 20px;}
+.parent-setting .row .profile-setting .form-inline > input{width: 47%;margin-bottom: 6px;margin-top: 8px;margin-left: 19px;border: none;}
+.parent-setting .row .profile-setting .form-inline > textarea{width: 97%;border: none;height: 94px;margin-top: 10px;margin-bottom: 10px;}
+.parent-setting .row .profile-setting .form-inline .gender,.parent-setting .row .profile-setting .form-inline .selectsSing{width: 50%;text-align: right;}
+.parent-setting .row .profile-setting .form-inline .gender select{width: 170px;border-radius: 7px;border:none}
+.parent-setting .row .profile-setting .form-inline .selectsSing select{width: 95px;border-radius: 7px;border:none;padding-left: 3px;margin-left: 7px;}
+.parent-setting .row .profile-setting .form-inline .h5{width: 100%;text-align: right;}
+.parent-setting .row .profile-overview,
+.parent-setting .row .myChildren,
+.parent-setting .row .profile-setting{
+	-webkit-transition: all .5s ease-in-out;
+	-moz-webkit-transition: all .5s ease-in-out;
+	-o-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
 /* End parent settings */
 /* ------------------------------------------ */   
 /* ------------------------------------------ */

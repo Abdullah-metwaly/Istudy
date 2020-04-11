@@ -37,7 +37,7 @@ $(".courses-section .row .list-unstyled li").click(function(){
 							console.log('clicked');
 					$(this).addClass('active').siblings().removeClass('active');
 						console.log($(this).data('class'));
-					$($(this).data('class')).removeClass('d-none').fadeIn().siblings().addClass('d-none');
+					$($(this).data('class')).removeClass('d-none').fadeIn("slow").siblings().addClass('d-none');
 			   console.log($(this).data('class'));
 				})
 // for team work section
@@ -55,6 +55,21 @@ $(".team-work ul li").on('click', function(){
 $(".parent-setting .row .inside .taps ul li").on('click', function(){
 	console.log($(this).data('class'));
 	$(this).addClass('active').siblings().removeClass('active');
-});		
+	$($(this).data('class')).removeClass('d-none').fadeIn().siblings().addClass('d-none');
+	console.log($(this).data('class'));
+});	
+// Parent settings select options
+for( var i = 1960 ; i <= 2020 ; i++)
+{
+	$("<option>" , {value: i, text: i}).appendTo($("#year"))
+}	
+for( var i = 1 ; i <= 12 ; i++)
+{
+	$("<option>" , {value: i, text: i}).appendTo($("#month"))
+}	
+for( var i = 1 ; i <= 31 ; i++)
+{
+	$("<option>" , {value: i, text: i}).appendTo($("#day"))
+}	
 
 });
