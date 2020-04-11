@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8" />
+    <!-- IE Compatibility Meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- First Mobile Meta  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Payment</title>
+
+    <link href="css/fontawesome.css" rel='stylesheet' type='text/css'>
+    <link href="css/all.css" rel='stylesheet' type='text/css'>
+    <link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/jquery.bxslider.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- <link rel="stylesheet" href="css/bootstrap_rtl.css" /> -->
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="css/responisve.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+</head>
+
+<body>
+
+ <!-- Start Our Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- left -->
+    <div class="right-nav">
+        <ul class="navbar-nav">
+            <li class="nav-item d-none d-lg-block">
+                <span class="count-cart">1</span>
+                <i class="fas fa-shopping-cart cart"></i> 
+            </li>
+            <li class="nav-item d-none d-lg-block">
+                <span class="count-bell">1</span>
+                <i class="fas fa-bell cart"></i> 
+            </li>
+            <li class="nav-item d-none d-lg-block">
+                <span class="count-course">2</span>
+                <i class="fas fa-university course"></i>
+            </li>
+            <li class="nav-item d-none d-lg-block">
+                <span class="notification"></span>
+               <div class="profile"></div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- links of navbar -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <form class="form-inline">
+                    <!-- <input class="form-control" type="search" placeholder="البحث" aria-label="Search"> -->
+                <div class="wrap">
+                    <div class="search">
+                        <button type="submit" class="searchButton">
+                            <i class="fa fa-search"></i>
+                         </button>
+                       <input type="search" class="searchTerm" placeholder="البحث">
+                    </div>
+                 </div>
+                </form>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">كورسات</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">المدارس</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">الاباء</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">وسائل الدفع</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">شركائنا</a>
+            </li>
+            <li class="active nav-item">
+                <a class="nav-link" href="#">المدرسون</a>
+            </li>
+            <li class="nav-item d-lg-none d-md-block">
+                <button class="btn btn-primary" href="#" role="button">الدخول</button>
+            </li>
+            <li class="nav-item d-lg-none d-md-block">
+                <button class="btn btn-primary" href="#" role="button">ستجيل</button>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="#">المدرسون</a>
+            </li> -->
+        </ul>
+    </div>
+    <!-- logo image -->
+    
+
+
+    <img src="img/logo.svg" class="logo img-responsive" alt="#">
+
+
+    <div class="log-pop dropdown" aria-labelledby="navbarDropdown">
+        <button class="close"><i class="fas fa-times"></i></button>
+        <h1 class="text-center">تسجيل الدخول</h1>
+        <form class="form-inline">
+            <input class="form-control" type="usename" placeholder="تسجيل الدخول" aria-label="Login">
+            <input class="form-control" type="password" placeholder="كلمة السر" aria-label="password">
+            <p class="text-center">نسيت كلمة السر؟</p>
+            <button class="btn btn-outline-primary type=">تسجيل الدخول</button>
+        </form>
+        <p class="text-center">او سجل من</p>
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-google"></i></a></li>
+        </ul>
+    </div>
+    <div class="reg-pop dropdown" aria-labelledby="navbarDropdown" style="height: 485px;">
+        <button class="close"><i class="fas fa-times"></i></button>
+        <h1 class="text-center">تسجيل الدخول</h1>
+        <form class="form-inline">
+            <input class="form-control" type="usename" placeholder="تسجيل الدخول" aria-label="Login">
+            <input class="form-control" type="usename" placeholder="تسجيل الدخول" aria-label="Login">
+            <input class="form-control" type="password" placeholder="كلمة السر" aria-label="password">
+            <input class="form-control" type="password" placeholder="كلمة السر" aria-label="password">
+            <p class="text-center">نسيت كلمة السر؟</p>
+            <button class="btn btn-outline-primary type=">تسجيل الدخول</button>
+        </form>
+        <p class="text-center">او سجل من</p>
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-google"></i></a></li>
+        </ul>
+    </div>
+
+
+</nav>
+<!-- End Our Navbar -->
+
+    <!-- start Sign up for Parent -->
+    <div class="payment text-center">
+        <div class="container">
+           
+            <!-- <div class="row" > -->
+            <div class="col">
+                <h1 class="heading text-center">Payment</h1>
+                <img class="img-responsive cc-img" src="img/Cards.png">
+                <div class="line">
+                    <p>Name on card</p>
+                <input class="form-control" type="usename" placeholder="Name on card" aria-label="Login">
+                </div>
+                <div class="line">
+                <p class="p">Card number</p>
+                <input class="form-control" type="number" placeholder="####-####-####-####" aria-label="Login">
+            </div>
+            <div class="line">
+                <p class="p">Expiry date</p>
+                <input class="form-control" type="date" placeholder="MM/YY" aria-label="Login">
+            </div>
+            <div class="line">    
+            <p class="p">CVV</p>
+                <input class="form-control" type="text" placeholder="CVV" aria-label="Login">
+            </div>
+            <div class="line">
+                <p class="p">Country</p>
+                <input class="form-control" type="number" placeholder="Country" aria-label="Login">
+            </div>
+            <div class="line">
+                <p class="p">Postal code</p>
+                <input class="form-control" type="number" placeholder="Postal Code" aria-label="Login">
+            </div>
+                <span class="text-center" style="color:#949599;display: block;">Remember this card</span>
+                <button class="btn btn-dark">USE THIS CARD</button>
+                <br>
+                <h4 class="h5 text-left" style="opacity: 0.8;">You can pay with</h4>
+               <div class="row"> 
+                   <div class="col-lg">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <img class="img-responsive col-lg" src="img/fawry.png"></div>
+                <div class="col-lg">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <img class="img-responsive col-lg" src="img/paypass.png"></div>
+                <div class="col-lg">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <img class="img-responsive col-lg" src="img/posta.png"></div>
+                <br>  
+            </div>
+            <button class="btn btn-dark method">continue</button>
+            <div class="row"> 
+
+             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+             <label class="form-check-label" for="exampleRadios2">
+                Pay with
+              </label>
+             <img class="img" src="img/One Card.png"></div>
+
+         <button class="btn btn-dark method">continue</button>
+        </div>
+        </div>
+        </div>
+    <!-- end sign up for Parent -->
+<!-- start the footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="top">
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    <h6 class="heading h3 text-right">اتصل بنا الان</h6>
+                    <ul class="contact-links text-right">
+                        <li>القاهرة, مصر  <i class="fa fa-map-marker"></i></li>
+                        <li>+20 (10) 939 33398 <i class="fa fa-phone"></i></li>
+                        <li>+20 (11) 732 3337 <i class="fa fa-fax"></i></li>
+                        <li>edui.istudy@info.com <i class="far fa-envelope"></i></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <h3 class="h1 text-right">من نحن؟</h3>
+                    <p class="parg">
+                        خدمة الاكتروانية توفر الكورسات للجميع المراحل الدراسية من خلال نغبة من المدرسين المتخصيصن في جميع المراحل و كل المواد علي اعلي مستوي 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footerDown clearfix">
+        <div class="container">
+            <ul class="socialFooter clearfix">
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <div class="foot-links">
+                <ul>
+                    <a href="#" class="link">قالوا عنا</a>
+                    <a href="#" class="link">السياسات الخاصة</a>
+                    <a href="#" class="link">خدمات مدارس خاصة</a>
+                    <a href="#" class="link">فريق العمل</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="rights text-center"> © All rights reserved for Istudy</div>
+</footer>
+<!-- end our footer -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <script src="js/jquery.deepcheckbox.min.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.bxslider-rahisified.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

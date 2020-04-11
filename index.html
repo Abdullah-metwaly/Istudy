@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8" />
+    <!-- IE Compatibility Meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- First Mobile Meta  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Home Page</title>
+
+    <link href="css/fontawesome.css" rel='stylesheet' type='text/css'>
+    <link href="css/all.css" rel='stylesheet' type='text/css'>
+    <link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/jquery.bxslider.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- <link rel="stylesheet" href="css/bootstrap_rtl.css" /> -->
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="css/responisve.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+
+
+    <!--[if lt IE 9]>
+       <script src="js/html5shiv.min.js"></script>
+       <script src="js/respond.min.js"></script>
+   <![endif]-->
+
+
+</head>
+
+<body>
+ <!-- Start Our Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- left -->
+    <div class="right-nav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <button id="log-btn" class="btn btn-primary but d-none d-lg-block" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 الدخول
+                </button>
+            </li>
+            <li class="nav-item">
+                <button id="reg-btn" class="btn btn-primary d-none d-lg-block" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    سجل دخول
+                </button>
+            </li>
+            <li>
+            </li>
+        </ul>
+        <!-- <div class="nav-item lang-swticher">e
+</div> -->
+    </div>
+
+    <!-- links of navbar -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <form class="form-inline">
+                    <!-- <input class="form-control" type="search" placeholder="البحث" aria-label="Search"> -->
+                <div class="wrap">
+                    <div class="search">
+                        <button type="submit" class="searchButton">
+                            <i class="fa fa-search"></i>
+                         </button>
+                       <input type="search" class="searchTerm" placeholder="البحث">
+                    </div>
+                 </div>
+                </form>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">كورسات</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">المدارس</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">الاباء</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">وسائل الدفع</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">شركائنا</a>
+            </li>
+            <li class="active nav-item">
+                <a class="nav-link" href="#">المدرسون</a>
+            </li>
+            <li class="nav-item d-lg-none d-md-block">
+                <button class="btn btn-primary" href="#" role="button">الدخول</button>
+            </li>
+            <li class="nav-item d-lg-none d-md-block">
+                <button class="btn btn-primary" href="#" role="button">ستجيل</button>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="#">المدرسون</a>
+            </li> -->
+        </ul>
+    </div>
+    <!-- logo image -->
+    
+
+
+    <img src="img/logo.svg" class="logo img-responsive" alt="#">
+
+
+    <div class="log-pop dropdown" aria-labelledby="navbarDropdown">
+        <button class="close"><i class="fas fa-times"></i></button>
+        <h1 class="text-center">تسجيل الدخول</h1>
+        <form class="form-inline">
+            <input class="form-control" type="usename" placeholder="تسجيل الدخول" aria-label="Login">
+            <input class="form-control" type="password" placeholder="كلمة السر" aria-label="password">
+            <p class="text-center">نسيت كلمة السر؟</p>
+            <button class="btn btn-outline-primary type=">تسجيل الدخول</button>
+        </form>
+        <p class="text-center">او سجل من</p>
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-google"></i></a></li>
+        </ul>
+    </div>
+    <div class="reg-pop dropdown" aria-labelledby="navbarDropdown" style="height: 485px;">
+        <button class="close"><i class="fas fa-times"></i></button>
+        <h1 class="text-center">تسجيل الدخول</h1>
+        <form class="form-inline">
+            <input class="form-control" type="usename" placeholder="تسجيل الدخول" aria-label="Login">
+            <input class="form-control" type="usename" placeholder="تسجيل الدخول" aria-label="Login">
+            <input class="form-control" type="password" placeholder="كلمة السر" aria-label="password">
+            <input class="form-control" type="password" placeholder="كلمة السر" aria-label="password">
+            <p class="text-center">نسيت كلمة السر؟</p>
+            <button class="btn btn-outline-primary type=">تسجيل الدخول</button>
+        </form>
+        <p class="text-center">او سجل من</p>
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-google"></i></a></li>
+        </ul>
+    </div>
+
+
+</nav>
+
+
+<!-- End Our Navbar -->
+    <!-- Start the image  -->
+    <div class="intro">
+        <div class="container">
+            <div class="row  d-none d-lg-block">
+                <div class="cover-img">
+                    <div class="right-heading" ><div class="first-span" style="color: #F2BF34;">التعليم</div></div>
+                    <div class="right-prag"> متعة </div>
+                </div>
+                <div class="left-prag text-center">
+                    <p>كن أحد طلاب مجتمع آي ستدي الذكي</p><br>
+                    <button class="btn btn-primary">سجل الان</button><br><br>
+                    <p>وفّر وقتك ومجهودك ونقودك</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end the image  -->
+
+    <!-- start stages  -->
+    <div class="section-stages">
+        <div class="container">
+            <div class="row">
+                <div class="box green col-lg-3 col-md-6 col-sm-6">
+                    <h1><i class="fas fa-graduation-cap"></i>المرحلة الجامعة</h1>
+                </div>
+                <div class="box yellow col-lg-3 col-md-6 col-sm-6">
+                    <h1><i class="fa fa-book"></i>الثانوية العامة</h1>
+                </div>
+                <div class="box blue col-lg-3 col-md-6 col-sm-6">
+                    <h1><i class="fa fa-gem"></i>المرحلة الاعدادية</h1>
+                </div>
+                <div class="box purple col-lg-3 col-md-6 col-sm-6">
+                    <h1><i class="fas fa-school"></i>المرحلة الابتدائية</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end stages -->
+
+    <!-- start the slider -->
+    <div class="bx-slider">
+        <h1 class="text-center">الدورات الأكثر شهرة</h1>
+        <div class="container">
+            <ul id="myslider" class="bxslider" data-call="bxslider">
+                <li>
+                    <div class="row">
+                        <!-- one -->
+                        <div class="sub-box col-lg-2 col-md-3">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>  <div class="clear-fix"></div>
+                                <!-- <div> -->
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <!-- </div> -->
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end one -->
+                        <!-- two -->
+                        <div class="sub-box col-lg-2 col-md-3">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end two -->
+                        <!-- three -->
+                        <div class="sub-box col-lg-2 col-md-3">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end three -->
+                        <!-- four -->
+                        <div class="sub-box col-lg-2 col-md-3 d-none d-lg-block">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end four -->
+                        <!-- five -->
+                        <div class="sub-box col-lg-2 d-none d-lg-block">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end five  -->
+
+                    </div>
+                    <!-- end row -->
+                </li>
+
+                <li>
+                    <div class="row">
+                        <!-- one -->
+                        <div class="sub-box col-lg-2 col-md-3">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end one -->
+                        <!-- two -->
+                        <div class="sub-box col-lg-2 col-md-3">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end two -->
+                        <!-- three -->
+                        <div class="sub-box col-lg-2 col-md-3">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end three -->
+                        <!-- four -->
+                        <div class="sub-box col-lg-2 col-md-3 d-none d-lg-block">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end four -->
+                        <!-- five -->
+                        <div class="sub-box col-lg-2 col-md-3 d-none d-lg-block">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end five  -->
+
+                    </div>
+                    <!-- end row -->
+                </li>
+                <li>
+                    <div class="row">
+                        <!-- one -->
+                        <div class="sub-box col-lg-2 col-md-3">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end one -->
+                        <!-- two -->
+                        <div class="sub-box col-lg-2 col-md-3">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end two -->
+                        <!-- three -->
+                        <div class="sub-box col-lg-2 col-md-3">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end three -->
+                        <!-- four -->
+                        <div class="sub-box col-lg-2 col-md-3 d-none d-lg-block">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end four -->
+                        <!-- five -->
+                        <div class="sub-box col-lg-2 col-md-3 d-none d-lg-block">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end five  -->
+
+                    </div>
+                    <!-- end row -->
+                </li>
+                <li>
+                    <div class="row">
+                        <!-- one -->
+                        <div class="sub-box col-lg-2 col-md-3">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end one -->
+                        <!-- two -->
+                        <div class="sub-box col-lg-2 col-md-3">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end two -->
+                        <!-- three -->
+                        <div class="sub-box col-lg-2 col-md-3">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end three -->
+                        <!-- four -->
+                        <div class="sub-box col-lg-2 col-md-3 d-none d-lg-block">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end four -->
+                        <!-- five -->
+                        <div class="sub-box col-lg-2 col-md-3 d-none d-lg-block">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end five  -->
+
+                    </div>
+                    <!-- end row -->
+                </li>
+                <li>
+                    <div class="row">
+                        <!-- one -->
+                        <div class="sub-box col-lg-2 col-md-3">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end one -->
+                        <!-- two -->
+                        <div class="sub-box col-lg-2 col-md-3">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end two -->
+                        <!-- three -->
+                        <div class="sub-box col-lg-2 col-md-3">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end three -->
+                        <!-- four -->
+                        <div class="sub-box col-lg-2 col-md-3 d-none d-lg-block">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end four -->
+                        <!-- five  -->
+                        <div class="sub-box col-lg-2 col-md-3 col-sm-12 d-none d-lg-block">
+                            <div class="square">
+                                <span class="span-price">
+                                    <p>$14.4</p>
+                                </span>
+                                <div>
+                                    <h1>اللغة الالمانية</h1>
+                                    <p>الصف الثالث الثانوي</p>
+                                </div>
+                            </div>
+                            <div class="sub-box-dec">
+                                <p>اسم المدرس المخصوص</p>
+                                <br>
+                                <span class="float-right">12 <i class="fas fa-comment"></i></span>
+                                <span class="float-right">36 <i class="fas fa-user-friends"></i></span>
+                                <div class="left-des">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end five  -->
+
+                    </div>
+                    <!-- end row -->
+                </li>
+                <!-- <li> <img src="img/pic6.jpg" /> </li> -->
+            </ul>
+        </div>
+    </div>
+    <!-- end the slider -->
+
+    <!-- start partners -->
+    <div class="partner">
+        <div class="container">
+            <h1 class="heading">شركائنا</h1>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div><img class="img-responsive" src="img/harvard.jpg" alt=""></div>
+                </div>
+                <div class="col-lg-4">
+                    <div><img class="img-responsive" src="img/stanford.jpg" alt=""></div>
+                </div>
+                <div class="col-lg-4"><div><img class="img-responsive" src="img/mit.jpg" alt=""></div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-lg-4 offset-lg-4"><div><img class="img-responsive" src="img/calorado.jpg" alt=""></div>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!-- end partners  -->
+
+    <!-- Start achievements Section Stats -->
+
+    <section class="statistics text-center">
+        <div class="data">
+            <div class="container">
+                <h2 class="h1">الاحصائيات</h2>
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stats">
+                            <i class="fas fa-globe-asia"></i>
+                            <p>94,550</p>
+                            <span>عدد المستخدمين</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stats">
+                            <i class="fas fa-bell"></i>
+                            <p>11,223</p>
+                            <span>عدد التعليقات</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stats">
+                            <i class="fas fa-users"></i>
+                            <p>82,343</p>
+                            <span>عدد الدورات المتاحة</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stats">
+                            <i class="fas fa-business-time"></i>
+                            <p>55,350</p>
+                            <span>عدد المدرسين</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Section Stats achievments  -->
+
+    <!-- Start Section Subscribe -->
+
+    <section class="subscribe text-center wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-right">
+                    <p class="lead"><span class="float-right"><i class="fa fa-book"></i></span> ابقي علي <span  style='color:#007BFF' >تواصل معنا </span></p>
+                </div>
+                <div class="col-md-6">
+                    <form class="form-inline">
+                        <input class="form-control input-lg" type="text" placeholder="الاميل الخاص بك">
+                        <button class="btn btn-primary btn-lg"><i class="fa fa-edit fa-lg"></i> أشترك</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Section Subscribe -->
+
+    <!-- start the footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="top">
+                <div class="row">
+                    <div class="col-md-6 col-xs-6">
+                        <h6 class="heading h3 text-right">اتصل بنا الان</h6>
+                        <ul class="contact-links text-right">
+                            <li>القاهرة, مصر  <i class="fa fa-map-marker"></i></li>
+                            <li>+20 (10) 939 33398 <i class="fa fa-phone"></i></li>
+                            <li>+20 (11) 732 3337 <i class="fa fa-fax"></i></li>
+                            <li>edui.istudy@info.com <i class="far fa-envelope"></i></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-xs-6">
+                        <h3 class="h1 text-right">من نحن؟</h3>
+                        <p class="parg">
+                            خدمة الاكتروانية توفر الكورسات للجميع المراحل الدراسية من خلال نغبة من المدرسين المتخصيصن في جميع المراحل و كل المواد علي اعلي مستوي 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerDown clearfix">
+            <div class="container">
+                <ul class="socialFooter clearfix">
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+                <div class="foot-links">
+                    <ul>
+                        <a href="#" class="link">قالوا عنا</a>
+                        <a href="#" class="link">السياسات الخاصة</a>
+                        <a href="#" class="link">خدمات مدارس خاصة</a>
+                        <a href="#" class="link">فريق العمل</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="rights text-center"> © All rights reserved for Istudy</div>
+    </footer>
+
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <script src="js/jquery.deepcheckbox.min.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.bxslider-rahisified.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

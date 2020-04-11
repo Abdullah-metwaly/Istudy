@@ -1,0 +1,6 @@
+$(".side-nav ul li").click(function(){
+             $(this).addClass('active').siblings().removeClass('active');
+                 // $('.whole-page  >div').hide();
+             $($(this).data('class')).removeClass('hidden').fadeIn().siblings().addClass('hidden');
+        console.log($(this).data('class'));
+         });
