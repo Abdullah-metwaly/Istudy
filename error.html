@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-
     <meta charset="UTF-8" />
     <!-- IE Compatibility Meta -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,148 +19,132 @@
     <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="css/responisve.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
 </head>
 
 <body>
- <!-- Start Our Navbar -->
- <nav class="navbar navbar-expand-lg navbar-light">
-    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- left -->
-    <div class="right-nav">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <button id="log-btn" class="btn btn-primary but d-none d-lg-block" href="#" id="navbarDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                 الدخول
-                </button>
-            </li>
-            <li class="nav-item">
-                <button id="reg-btn" class="btn btn-primary d-none d-lg-block" href="#" id="navbarDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    سجل دخول
-                </button>
-            </li>
-            <li>
-            </li>
-        </ul>
-        <!-- <div class="nav-item lang-swticher">e
-</div> -->
-    </div>
-
-    <!-- links of navbar -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <form class="form-inline">
-                    <!-- <input class="form-control" type="search" placeholder="البحث" aria-label="Search"> -->
-                <div class="wrap">
-                    <div class="search">
-                        <button type="submit" class="searchButton">
-                            <i class="fa fa-search"></i>
-                         </button>
-                       <input type="search" class="searchTerm" placeholder="البحث">
-                    </div>
-                 </div>
-                </form>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">كورسات</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">المدارس</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">الاباء</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">وسائل الدفع</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">شركائنا</a>
-            </li>
-            <li class="active nav-item">
-                <a class="nav-link" href="#">المدرسون</a>
-            </li>
-            <li class="nav-item d-lg-none d-md-block">
-                <button class="btn btn-primary" href="#" role="button">الدخول</button>
-            </li>
-            <li class="nav-item d-lg-none d-md-block">
-                <button class="btn btn-primary" href="#" role="button">ستجيل</button>
-            </li>
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="#">المدرسون</a>
-            </li> -->
-        </ul>
-    </div>
-    <!-- logo image -->
-    
-
-
-    <img src="img/logo.svg" class="logo img-responsive" alt="#">
-
-
-    <div class="log-pop dropdown" aria-labelledby="navbarDropdown">
-        <button class="close"><i class="fas fa-times"></i></button>
-        <h1 class="text-center">تسجيل الدخول</h1>
-        <form class="form-inline">
-            <input class="form-control" type="usename" placeholder="تسجيل الدخول" aria-label="Login">
-            <input class="form-control" type="password" placeholder="كلمة السر" aria-label="password">
-            <p class="text-center">نسيت كلمة السر؟</p>
-            <button class="btn btn-outline-primary type=">تسجيل الدخول</button>
-        </form>
-        <p class="text-center">او سجل من</p>
-        <ul>
-            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fab fa-google"></i></a></li>
-        </ul>
-    </div>
-    <div class="reg-pop dropdown" aria-labelledby="navbarDropdown" style="height: 485px;">
-        <button class="close"><i class="fas fa-times"></i></button>
-        <h1 class="text-center">تسجيل الدخول</h1>
-        <form class="form-inline">
-            <input class="form-control" type="usename" placeholder="تسجيل الدخول" aria-label="Login">
-            <input class="form-control" type="usename" placeholder="تسجيل الدخول" aria-label="Login">
-            <input class="form-control" type="password" placeholder="كلمة السر" aria-label="password">
-            <input class="form-control" type="password" placeholder="كلمة السر" aria-label="password">
-            <p class="text-center">نسيت كلمة السر؟</p>
-            <button class="btn btn-outline-primary type=">تسجيل الدخول</button>
-        </form>
-        <p class="text-center">او سجل من</p>
-        <ul>
-            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fab fa-google"></i></a></li>
-        </ul>
-    </div>
-
-
-</nav>
-<!-- End Our Navbar -->
+    <!-- Start Our Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- left -->
+        <div class="right-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item d-none d-lg-block">
+                    <span class="count-cart">1</span>
+                    <i class="fas fa-shopping-cart cart"></i>
+                </li>
+                <li class="nav-item d-none d-lg-block">
+                    <span class="count-bell">1</span>
+                    <i class="fas fa-bell cart"></i>
+                </li>
+                <li class="nav-item d-none d-lg-block">
+                    <span class="count-course">2</span>
+                    <i class="fas fa-university course"></i>
+                </li>
+                <li class="nav-item d-none d-lg-block">
+                    <span class="notification"></span>
+                    <div ><img class="profile img-responsive" src="img/avatar.jpg" alt=""></div>
+                </li>
+            </ul>
+        </div>
+        <!-- links of navbar -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <form class="form-inline">
+                        <!-- <input class="form-control" type="search" placeholder="البحث" aria-label="Search"> -->
+                        <div class="wrap">
+                            <div class="search">
+                                <button type="submit" class="searchButton">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                                <input type="search" class="searchTerm" placeholder="البحث">
+                            </div>
+                        </div>
+                    </form>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">المحاضرون</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">أولياء الأمور</a>
+                </li>
+                <li class="active nav-item">
+                    <a class="nav-link" href="#">المؤسسات التعليمية</a>
+                </li>
+                <li class="nav-item d-lg-none d-md-block">
+                    <button class="btn btn-primary" href="#" role="button">الدخول</button>
+                </li>
+                <li class="nav-item d-lg-none d-md-block">
+                    <button class="btn btn-primary" href="#" role="button">ستجيل</button>
+                </li>
+            </ul>
+        </div>
+        <!-- logo image -->
+        <img src="img/logo.svg" class="logo img-responsive" alt="#">
+        <div class="log-pop dropdown" aria-labelledby="navbarDropdown">
+            <button class="close"><i class="fas fa-times"></i></button>
+            <h1 class="text-center">تسجيل الدخول</h1>
+            <form class="form-inline">
+                <input class="form-control" type="usename" placeholder="تسجيل الدخول" aria-label="Login">
+                <input class="form-control" type="password" placeholder="كلمة السر" aria-label="password">
+                <p class="text-center">نسيت كلمة السر؟</p>
+                <button class="btn btn-outline-primary type=">تسجيل الدخول</button>
+            </form>
+            <p class="text-center">او سجل من</p>
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-google"></i></a></li>
+            </ul>
+        </div>
+        <div class="reg-pop dropdown" aria-labelledby="navbarDropdown" style="height: 485px;">
+            <button class="close"><i class="fas fa-times"></i></button>
+            <h1 class="text-center">تسجيل الدخول</h1>
+            <form class="form-inline">
+                <input class="form-control" type="usename" placeholder="تسجيل الدخول" aria-label="Login">
+                <input class="form-control" type="usename" placeholder="تسجيل الدخول" aria-label="Login">
+                <input class="form-control" type="password" placeholder="كلمة السر" aria-label="password">
+                <input class="form-control" type="password" placeholder="كلمة السر" aria-label="password">
+                <p class="text-center">نسيت كلمة السر؟</p>
+                <button class="btn btn-outline-primary type=">تسجيل الدخول</button>
+            </form>
+            <p class="text-center">او سجل من</p>
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-google"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Our Navbar -->
 
     <!-- Start Error Page -->
     <div class="error text-center">
         <div class="container">
-            <p class="p">4<span>&#128517;</span>4</p>
+            <div class="child">
+            <p class="p">4<span>
+                <img class="img-responsive" src="img/smile.png" alt="">
+            </span>4</p>
+        </div>
             <div class="error-div">
                 <p style="font-size: 27px;margin-bottom: 42px;">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Sit quibusdam laborum id, sunt cumque minus doloremque dolore, <br>ducimus nisi inventore animi veritatis debitis </p>
                 <button class="btn btn-primary" style="margin:30px">الرجوع الي الخلف</button>
             </div>
+        
         </div>
     </div>
     <!-- End error page -->
-      <!-- start the footer -->
-      <footer class="footer">
+       <!-- start the footer -->
+    <footer class="footer">
         <div class="container">
             <div class="top">
                 <div class="row">
                     <div class="col-md-6 col-xs-6">
                         <h6 class="heading h3 text-right">اتصل بنا الان</h6>
                         <ul class="contact-links text-right">
-                            <li>القاهرة, مصر  <i class="fa fa-map-marker"></i></li>
+                            <li>القاهرة, مصر <i class="fa fa-map-marker"></i></li>
                             <li>+20 (10) 939 33398 <i class="fa fa-phone"></i></li>
                             <li>+20 (11) 732 3337 <i class="fa fa-fax"></i></li>
                             <li>edui.istudy@info.com <i class="far fa-envelope"></i></li>
@@ -171,7 +153,8 @@
                     <div class="col-md-6 col-xs-6">
                         <h3 class="h1 text-right">من نحن؟</h3>
                         <p class="parg">
-                            خدمة الاكتروانية توفر الكورسات للجميع المراحل الدراسية من خلال نغبة من المدرسين المتخصيصن في جميع المراحل و كل المواد علي اعلي مستوي 
+                            خدمة الاكتروانية توفر الكورسات للجميع المراحل الدراسية من خلال نغبة من المدرسين المتخصيصن في
+                            جميع المراحل و كل المواد علي اعلي مستوي
                         </p>
                     </div>
                 </div>
@@ -193,13 +176,16 @@
                         <a href="#" class="link">السياسات الخاصة</a>
                         <a href="#" class="link">خدمات مدارس خاصة</a>
                         <a href="#" class="link">فريق العمل</a>
+                        <a href="#" class="link">الدورات</a>
+                        <a href="#" class="link">وسائل الدفع</a>
+                        <a href="#" class="link">شركائنا</a>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="rights text-center"> © All rights reserved for Istudy</div>
     </footer>
-<!-- end our footer -->
+    <!-- end our footer -->
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->

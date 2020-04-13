@@ -8,6 +8,12 @@ $(document).ready( function() {
 	  breaks:  [,{screen:460, slides:3},{screen:768, slides:5}]
 	});
 
+	// fot the main navbar 
+$(".navbar .collapse ul li").on('click', function(){
+	console.log($(this).data('class'));
+	$(this).addClass('active').siblings().removeClass('active');
+	
+});	
 $('#log-btn').click(function () {
 	// console.log('correct');
 	$('.log-pop').fadeIn();	

@@ -107,7 +107,7 @@ input[type="number"]::-webkit-inner-spin-button
 
 }
 .navbar .navbar-collapse .navbar-nav .nav-item .form-inline{float: right;} 
-.navbar .collapse .active .nav-link{color: #169DD8 !important;border-bottom: 1px solid;width: 81px;float: right;}
+.navbar .collapse .active .nav-link{color: #169DD8 !important;border-bottom: 1px solid;float: right;}
 .navbar .navbar-nav 
 {
 	font-family: 'Droid Arabic Kufi', serif;
@@ -115,9 +115,12 @@ input[type="number"]::-webkit-inner-spin-button
 	margin-top: 10px;
 	text-align: right;
 }
-.search {display: flex;}
+.navbar .navbar-nav .nav-item{
+	margin-left: 10px;
+}
+.search {display: flex;width: 30%;}
 .searchTerm {
-	width: 220px;
+	width: 200px;
     border: 3px solid #169DD8;
     padding: 5px;
     border-left: none;
@@ -143,7 +146,7 @@ input[type="number"]::-webkit-inner-spin-button
 .navbar .right-nav ul .count-cart{font-size: 16px;
     position: absolute;
     width: 20px;
-    left: 146px;
+    left: 175px;
     text-align: center;
     background-color: #414b4f;
     height: 20px;
@@ -153,7 +156,7 @@ input[type="number"]::-webkit-inner-spin-button
 .navbar .right-nav ul .count-bell{font-size: 16px;
 		position: absolute;
 		width: 20px;
-		left: 197px;
+		left: 240px;
 		text-align: center;
 		background-color: #414b4f;
 		height: 20px;
@@ -163,7 +166,7 @@ input[type="number"]::-webkit-inner-spin-button
 .navbar .right-nav ul .count-course{font-size: 16px;
 		position: absolute;
 		width: 20px;
-		left: 85px;
+		left: 107px;
 		text-align: center;
 		background-color: #414b4f;
 		height: 20px;
@@ -662,28 +665,27 @@ Here we start the cover page*/
 	background-image: url('../img/cover.jpg');
 	width: 100%;
 	height: 80%;
-	background: cover;
+	background-repeat:no-repeat;
+	background-position: center center;
 }
 .intro .right-heading
 {
 	position: absolute;
-    top: 221px;
-    right: 257px;
+    top: 205px;
+    right: 332px;
     font-size: 30px;
     color: #fff;
 }
 .intro .right-heading .first-span
 {
 	background-color: #fff;
-	-ms-transform: skewY(20deg); /* IE 9 */
-	transform: skewY(20deg);
 }
 .intro .right-prag
 {
 	position: absolute;
     font-size: 33px;
     top: 200px;
-    right: 347px;
+    right: 422px;
     border-bottom: 1px solid;
     color: #fff;
 }
@@ -889,6 +891,10 @@ line-height: 31px;
 .who-us .who-logo{max-width: 120px;border-right: 1px solid #C6C7CC;padding-right: 5px;}
 /* end who we are */
 /* start error */
+.error .container .child{background-image: url("../img/404.png");
+width: 100%;
+background-repeat:no-repeat;
+background-position: center center;}
 .error .p{font-size:250px;}
 .error .p{font-family: 'Montserrat-Regular', Montserrat;box-sizing: border-box;}
 /* end who we are */
@@ -976,7 +982,7 @@ line-height: 31px;
 /* .courses-section .primary-stage > div {float: left;} */
 .courses-section .primary-stage .search-course{width: 75%;}
 .courses-section .primary-stage .search > div{direction: rtl;}
-.courses-section .primary-stage{direction: rtl;}
+/* .courses-section .primary-stage{direction: rtl;} */
 .courses-section .primary-stage .search > div .h6{background-color: #f7f7f7;font-weight: bold;font-size: 25px;padding: 20px;margin-bottom: 0px;color: #424242;}
 .courses-section .primary-stage .search .stage{width: 100%;}
 .courses-section .primary-stage .search .stage .child{background-color: #f7f7f7;}
@@ -990,15 +996,18 @@ line-height: 31px;
 .courses-section .primary-stage .recommend  .container .box p{color: #252526;}
 /* end course filter */
 /* start my course progress */
-.course-progress .container{padding: 20px;background-color: #F7F7F7;margin-bottom: 20px;}
+.course-progress{padding: 50px;}
+.course-progress .container{padding: 20px;background-color: #F7F7F7;margin-bottom: 20px;width: 894px;}
 .course-progress .row{direction:rtl;text-align: right;}
-.course-progress .image, .course-basket .image{width: 120px;background-color: #949599;height:120px;margin-left:30px;margin-right: 20px;margin-bottom: 15px;}
+.course-progress .image, .course-basket .image{width: 120px;background-color: #949599;height:120px;margin-left:30px;margin-bottom: 15px;}
 .course-progress .desc .h1, .course-basket .desc .h1{color:#252526;}
 .course-progress .desc p, .course-basket .desc p{color:#949599;font-size: 18px;}
 .course-progress .info button{width: 120px;}
 .course-progress .info{	margin-top: 31px;font-size: 23px;color: #212529;}
 /* End my course progress */
 /* Start course basket section */
+.course-basket{padding: 50px;}
+.course-basket .container{width: 965px;}
 .course-basket .row{direction: rtl;text-align: right;}
 .course-basket .products{background-color:#F7F7F7 ;margin-bottom: 20px;}
 .course-basket .product{border-top: 1px solid #949599;padding-top: 20px;border-right: none;border-left: none;}
@@ -1249,6 +1258,7 @@ margin-bottom: 60px;}
 }
 .footer .rights{
 	background-color: #1c1c1c;
+	padding: 3px;
 }
 
 .footer .footerDown .socialFooter li a:hover{opacity:0.8}
