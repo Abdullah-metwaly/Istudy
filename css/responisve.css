@@ -1,4 +1,18 @@
 /*Big Size Screens*/
+/* Scree sizes for the different devices */
+/* 
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+ */
 @media (min-width: 991px) and (max-width: 1200px)
 {
     
@@ -9,20 +23,88 @@
 	.error .p{font-size:150px;}	
 }
 
-@media (max-width: 1023px) 
+
+/* small Screens & tablets & Smart phone */
+@media (max-width: 1025px) 
 {
-	.navbar .navbar-collapse
+	.navbar .logo
 	{
-		/* text-align: center; */
-		margin-top: 14px;
-		position: none;
-		right: 124px;
-	
+		position: absolute ;
+		max-width: 160px;
+	}
+	.navbar .navbar-collapse .navbar-nav .nav-item .form-inline{
+		float: right;
+	}
+	.navbar .navbar-nav{
+		margin: 0 0 0 10px ;
+	}
+	.navbar .navbar-nav .nav-item{margin-left: 8px }
+	.searchTerm{max-width: 80px }
+	.intro
+	{
+		height: 50% ;
+	}
+	.intro .right-heading .first-span{
+		position: absolute;
+		right: -177px;
+	}
+	.intro .right-prag{
+		right: 245px;
+	}
+	.bx-slider .bxslider .row{width: 97%;margin-left: -22px;}
+	.bx-slider .bxslider .row .sub-box .square{width: 163px;height: 163px;}
+	.bx-slider .bxslider .row .sub-box h1{line-height: 138px;font-size: 24px;}
+	.bx-slider .bxslider .row .sub-box-dec{width: 163px;}
+	.course-progress,.course-basket{margin-top: 65px;}
+	.courses-section .primary-stage .recommend .container .box .decs .rate{font-size: 12px;}
+	.courses-section .courses .course .left-des{font-size: 10px;}
+	.error{margin-top: 170px;}
+	.error .image{height: 176px;}
+	.invite .row{width: 510px;}
+	.invite .container{padding: 290px;}
+	.My-courses .video-section .video{width: 929px;}
+	.My-courses .recommend .container{height: 466px;}
+	.parent-sign .container, .student-sign .container, .student-login .container, .parent-login .container{margin-top: 120px;}
+	.parent-setting .row .profile-overview{height: 415px;}
+	.parent-setting .row .myChildren{width:613px;}
+	.parent-setting .row .myChildren .desc .h5,.parent-setting .row .myChildren .desc p{margin-right: 42px;}
+	.parent-setting .row .inside .img,
+	.parent-setting .row .inside{width: 252px !important;}
+	.parent-setting .row .profile-setting .form-inline{width: 600px;}
+	.parent-setting .row .profile-setting .form-inline > input{width: 46%;}
+	.parent-setting .row .profile-setting .full{width: 95% !important;}
+	.parent-setting .row .profile-setting .form-inline > textarea{width: 95%;}
+	.parent-setting .row .profile-setting .form-inline .btn{margin-top: 20px;}
+	.section-steps .container{margin-top: 180px;}
+	.section-steps .container .row > div {height: 287px;font-size: 44px;}
+	.study-meet .head .img{margin-top: 320px;}
+	.study-features{height: 15%;}
+	.study-features .overlay{height: 100%;}
+	/* .team-work .container .row{width: 98%;} */
+	.footer .parg
+    {
+    	width:100%;
+    	margin-bottom:0
+	}
+	.partner .row .col-lg-4{
+		margin-bottom: 20px;
+	}
+	.partner .row .col-lg-4 > div
+	{
+		margin: auto ;
+		width: 288px ;
+	}
+	.partner .row .col-lg-4 > div > img{width: 218px;height: 120px;}
+	.subscribe .form-control{width: 200px;}
+	.statistics p{
+		font-size: 35px ;
 	}
 	.navbar .navbar-collapse .navbar-nav .nav-item
 	{
 		margin-bottom: 10px;
 	}
+	.footer .top .contact-links{width: 83%;}
+	.footer .top .contact-links > li{text-align: center;}
 	.footer .heading,
 	.footer .h1,
 	.footer .parg
@@ -32,397 +114,18 @@
 
 }
 
-/* small Screens & tablets & Smart phone */
-@media (max-width: 991px) 
-{
-	.Play-modal .modal-dialog
-	{
-		width:auto
-	}
-	
-	.header .topBar .leftSection
-	{
-		margin-top:0
-	}
-	
-	.header .topBar .leftSection .open-menu
-	{
-		margin-top:15px;
-		margin-left:0	
-	}
-	.header .topBar .subjects h3
-	{
-		display:none
-	}	
-	
-    .header .topBar .open-menu
-    {
-    	display:block
-    }
-    .header .topBar .logo
-    {
-    	float:left;
-    }
-    
-    .header .topBar .subjects .subSubjects
-    {
-    	padding:0
-    }
-    
-    .header .topBar .subjects .subSubjects .btnsSub
-    {
-    	display:block;
-    	text-align:center;
-    	padding:10px 0 
-    }
-    
-    .header .topBar .subjects .subSubjects .btnsSub a
-    {
-     	padding: 0 25px;
-	    height: 40px;
-	    line-height: 35px;
-	    background-color: #71B307;
-	    color:#fff;
-	    font-family: "helveticaneueltarabic-bold";
-	    display: inline-block;
-	    width:125px;
-	    float:none
-    }
-    
-    .header .topBar .subjects .subSubjects .btnsSub a:hover
-    {
-    	background-color:#000
-    }
-    
-    .header .topBar .subjects .subSubjects .btnsSub a:not(:first-of-type)
-    {
-    	margin-right:15px;
-    	
-    }
-    
-    .header .topBar .subjects .subSubjects .container
-    {
-    	padding:0;
-    	overflow:hidden
-    }
-    
-    .header .topBar .subjects .subSubjects .details h2
-    {
-    	cursor:pointer;
-    	margin-bottom:0;
-    	padding:20px 15px 25px;
-    }
-    .header .topBar .subjects .subSubjects .details h2 i
-    {
-    	display:block
-    }
-    
-    .header .topBar .subjects .subSubjects .details h2.active i
-    {
-	  	transform:rotate(180deg);
-	  	-webkit-transform:rotate(180deg);
-	  	-moz-transform:rotate(180deg);
-	  	-o-transform:rotate(180deg);
-	  	-ms-transform:rotate(180deg);
-    }
-    
-    .header .topBar .subjects .subSubjects .details h2:hover
-    {
-    	background-color:#eee
-    }
-    
-    .header .topBar .subjects .subSubjects .details ul
-    {
-    	display:none;
-    	border-bottom:1px solid #D3D6DA
-    	padding:20px 0
-    }
-    
-    .header .topBar .subjects .subSubjects .details ul a
-    {
-    	height:35px;
-    	line-height:30px;
-    	padding:0 15px
-    }
-    
-    .sectionsHome .menuSections ul
-    {
-    	display:none!important
-    }
-    
-    .sectionsHome .sectionsDetails .MaskSections .learnDetails
-    {
-    	width:33.3333%
-    }
-    
-    .sectionsHome .sectionsDetails .MaskSections p.parg
-    {
-    	border-bottom: 1px solid #D6D8DA;
-    	margin-bottom:20px
-    }
-    
-    .sectionsHome .sectionsDetails .content
-    {
-    	padding:0
-    }
-    .sectionsHome .sectionsDetails .container
-    {
-    	padding:0;
-    	overflow:hidden
-    }
-    .sectionsHome .sectionsDetails .content .title
-    {
-    	display:block;
-    	border-bottom:1px solid #D6D8DA ;
-    	padding:15px;
-    	cursor:pointer
-    }
-    
-    .sectionsHome .sectionsDetails .content .title i
-    {
-    	display:block;
-    	float:left;
-	    font-size: 22px;
-	    margin-top: 9px;
-	  	
-    }
-    
-     .sectionsHome .sectionsDetails .content .active .title i
-    {
-	  	transform:rotate(180deg);
-	  	-webkit-transform:rotate(180deg);
-	  	-moz-transform:rotate(180deg);
-	  	-o-transform:rotate(180deg);
-	  	-ms-transform:rotate(180deg);
-    }
-    .sectionsHome .sectionsDetails .content:not(:last-of-type)
-    {
-    	border-bottom:none;
-    }
-    
-    .sectionsHome .sectionsDetails .content .col-md-3:not(:first-of-type)
-    {
-    	display:none
-    }
-    
-    .sectionsHome .sectionsDetails .content ul a
-    {
-    	height:45px;
-    	display:block;
-    	line-height:40px;
-    	padding-right:75px;
-    	border-bottom: 1px solid #D6D8DA
-    }
-    
-    .footer .parg
-    {
-    	width:100%;
-    	margin-bottom:0
-    }
-    .footer .title
-    {
-    	margin-top:30px;
-    	margin-bottom:15px
-    }
-    
-    .Login-modal .modal-dialog
-    {
-    	width:auto
-    }
-    
-    .formLogin .sectionRight
-    {
-    	padding-left:20px;
-    	padding-right:20px;
-    	padding-top:45px
-    }
-    
-    .singUp
-    {
-    	padding-bottom:0
-    }
-    
-    .singUp .formLogin
-    {
-    	border-radius:0
-    }
-    
-    .singUp .formLogin .sectionLeft
-    {
-    	min-height:auto;
-    }
-    
-    .singUp .container
-    {
-    	padding:0
-    }
-    
-    .formLogin .singPage .selectsSing select
-    {
-    	float:none;
-    	width:100%;
-    	margin-bottom:15px
-    }
-    
-    .formLogin .singUpForm .inputStyle
-    {
-    	padding-bottom:15px
-    }
-    
-    .formLogin .singUpForm .inputStyle p
-    {
-    	position:static;
-    	margin-top:5px
-    }
-    
-    .formLogin .singUpForm .back
-    {
-    	right:10px
-    }
-
-
-  	.secondBar h2,
-    .secondBar a
-    {
-    	float:none;
-    	margin-right:0;
-    	display:block;
-    	margin-bottom:10px;
-    	text-align:center
-    }
-    
-    .tabsParent 
-    {
-    	overflow:hidden
-    }
-    .addChild .child,
-    .addChild  .add
-    {
-    	margin-bottom:15px;
-    }
-    
-    
-    .addChild .child .details 
-    {
-    	text-align:center
-    }
-    
-    .addChild .child .details img,
-    .addChild .child .details .right
-    {
-    	float:none
-    }
-    
-    .headerProfile .username
-    {
-    	margin-top:23px
-    }
-    
-    .headerProfile .topBar .subjects
-    {
-    	margin-top:0
-    }
-    
-    .headerProfile .topBar .subjects .open-menu
-    {
-    	margin-top:22px;
-    }
-
-	.exams .listContainer
-	{
-		position:static;
-		width:100%;
-		margin-bottom:20px;
-		float:none;
-		margin-left:0
-	}
-	
-	.listContent
-	{
-		width:100%;
-		float:none
-	}
-	
-	.stepsEarly .step
-	{
-		margin-bottom:20px
-	}
-	
-	.finish .leveledUp
-	{
-		height:auto
-	}
-	
-	.finish .leveledUp .detailsLevel
-	{
-		padding:30px
-	}
-	
-	.finish .leveledUp .detailsLevel h2
-	{
-		margin-bottom:20px;
-		font-size:26px
-	}
-	
-	.finish .skills
-	{
-		padding-right:30px
-	}
-	
-	.finish .skills .skill .skillUi li .icons
-	{
-		margin-top:10px
-	}
-	
-	.teacher2 .wrapper .contentSub p
-	{
-		width:90%
-	}
-	
-
-}
-
-/* Small Screens */
+/* Small Screens which contain min and max interval */
 @media (min-width: 768px) and (max-width: 991px) 
 {
 	
+
 	
 }
 
 /* Mobile & Tablets */
 @media (max-width: 767px) 
 {
-	
-	.header .topBar .open-menu
-	{
-		position:absolute;
-	    right: 12px;
-	    top: 27px;
-		z-index:9
-	}
-	
-	.header .topBar .search
-	{
-	    width: 100%;
-	    padding-right:25px
-	}
-	
-	.header .topBar .search input
-	{
-		width:100%
-	}
-	
-
-	
-    .sectionsHome .sectionsDetails .MaskSections .learnDetails
-    {
-    	width:50%
-    }
     
-    .footer .footerDown
-    {
-    	text-align:center
-    }
     
     .footer .footerDown p,
     .footer .footerDown .socialFooter,
@@ -444,148 +147,7 @@
     	margin-top:15px;
     	display:inline-block
     }
-    
-    .singUp
-    {
-    	padding-top:0
-    }
-    
-    .singUp .bgSvg
-    {
-    	background:#00294A
-    }
-    
-    .headerForm .topBar
-    {
-    	border-bottom:1px solid rgba(255, 255, 255, 0.3)
-    }
-    
-    .singUp .formLogin .sectionLeft
-    {
-    	padding-top:60px
-    }
-    
-    .header .topBar .logo
-    {
-    	float:none;
-    }
-    
-    .headerProfile .username
-    {
-    	margin-top:4px
-    }
-    
-    .headerProfile .username .subProfile
-    {
-    	top:calc(100% + 15px)
-    }
-    
-    .headerProfile .topBar .leftSection
-    {
-    	float:none;
-    }
-    
-    .headerProfile .topBar .leftSection .open-menu,
-    .headerProfile .topBar .subjects
-    {
-    	position:static;
-    	float:left;
-    	margin-top:0
-    }
-    
-     .headerProfile .topBar .leftSection .open-menu
-     {
-     	margin-top:3px
-     }
-    
-    .headerProfile .topBar .search
-    {
-    	padding-right:0
-    }
-    
-    .profileContent .tabProfile .profile .Activity li .details
-    {
-    	width:82%
-    }
-    
-    .profileContent .tabProfile .projects .projectsHead select
-    {
-    	float:none;
-    	width:100%
-    }
-    
-    .profileContent .tabProfile .projects .projectsHead .btns-tabs
-    {
-    	float:none;
-    	margin-top:20px;
-    }
-    
-    .profileContent .tabProfile .coaches .coachesHead p
-    {
-    	float:none!important;
-    	margin-bottom:15px
-    }
-    
-    .modalContent .modalDetails
-    {
-    	height: 250px;
-    }
 
-	.addClass .class .details
-	{
-		width:76%
-	}
-	
-
-	.table-responsive
-	{
-		border:none
-	}
-	
-	.table-responsive thead
-	{
-		display:none
-	}
-	
-	.table-responsive tbody tr
-	{
-		width:100%;
-		border:1px solid #999;
-		margin-bottom:20px;
-		display:block
-	}
-	
-	.table-responsive tbody tr td
-	{
-		width:100%;
-		display:block;
-		text-align:center
-	}
-	
-	.admin-table.table-responsive tr td:not(:last-of-type)
-	{
-		border-right:none;
-		
-	}
-	
-	.mastery-points .mastery
-	
-	{text-align:center}
-	
-	
-	.mastery-points .mastery img,
-	.mastery-points .mastery .details,
-	.mastery-points .mastery .point
-	{
-		float:none;
-		margin:0 auto 20px;
-		padding:0;
-	}
-	.mastery-points .mastery .details,
-	.mastery-points .mastery .point
-	{
-		width:100%;
-	}
 
 
 }
@@ -593,175 +155,14 @@
 /* Tablets */
 @media (min-width:480px) and (max-width: 767px)
 {
-	.header .topBar .logo
-	{
-		margin-top:18px
-	}
+	
 }
 
 /* Mobile */
 @media (max-width: 479px) 
 {
 
-	.header .topBar .logo
-	{
-		float:none;
-		margin-top:10px
-	}
-	
-	.header .content
-	{
-		padding-top:40px;
-		padding-bottom:60px
-	}
-	
-	.header .content h2
-	{
-		font-size:20px
-	}
-	
-	.header .content p
-	{
-		font-size:15px;
-	}
-	
-	.header .content a
-	{
-		height:35px;
-		line-height:30px
-	}
-	
-	.sectionsHome .sectionsDetails .MaskSections .learnDetails
-	{
-		width:100%;
-		float:none;
-		text-align:center
-	}
-    
-    .sectionsHome .sectionsDetails .MaskSections p.parg
-    {
-    	font-size:15px
-    }
-	
-	.singUp .formLogin .sectionLeft
-	{
-		padding-right:20px;
-		padding-left:20px
-	}
-	
-	.formLogin .sectionLeft h2
-	{
-		font-size:20px
-	}
-	
-	.singPage .btns a
-	{
-		border:1px solid #D6D8DA;
-		float:none;
-		margin-bottom:15px
-		
-	}
-	.profileContent .menuProfile li
-	{
-		display:block;
-		float:none;
-	}
-	
-	.profileHead
-	{
-		padding-top:90px
-	}
-	
-	.profileContent .tabProfile .math .detailsMath .start
-	{
-		margin-top:0
-	}
-	
-	.profileContent .tabProfile .coaches .yourCoach li .nameCoach,
-	.profileContent .tabProfile .coaches .yourCoach li .remove
-	{
-		float:none;
-		display:block;
-		text-align:center
-	}
-	
-	.profileContent .tabProfile .coaches .yourCoach li .remove
-	{
-		margin-top:20px
-	}
-	
-	.profileContent .tabProfile .progressProfile .progressHead .btns-tabs,
-	.profileContent .tabProfile .progressProfile .progressHead select
-	{
-		float:none
-	}
-	.profileContent .tabProfile .progressProfile .progressHead select
-	{
-		width:100%
-	}
-	
-	.profileContent .tabProfile .progressProfile .progressHead .btns-tabs li
-	{
-		padding:0 5px
-	}
-	
-	.addClass .tabsHead h2,
-	.addClass .tabsHead a
-	{
-		text-align:center;
-		display:block;
-		float:none
-	}
-	
-	.addClass .tabsHead a
-	{
-		margin-top:10px;
-	}
-	
-	.addClass .class img,
-	.addClass .class .details
-	{
-		padding-right:0;
-		float:none;
-		text-align:center;
-		display:block;
-		margin:auto
-	}
-	
-	.addClass .class .details
-	{
-		width:100%
-	}
-	
-	.addClasses-modal .modal-body .modalDetails .labelStyle input, 
-	.addClasses-modal .modal-body .modalDetails .labelStyle textarea
-	{
-		width:100%
-	}
-	
-	.breadCrumb h2
-	{
-		font-size:20px;
-	}
-	
-	.teacher2 .accordion .accordion-title a
-	{
-		float:none;
-		margin-top:15px;
-		text-align:center
-	}
-	
-	.teacher2 .accordionSub .contentSub
-	{
-		padding-right:10px
-	}
-	
-	.teacher2 .accordion .accordion-content
-	{
-		padding:0 10px
-	}
-	
-	
+
 	
 	
 	
