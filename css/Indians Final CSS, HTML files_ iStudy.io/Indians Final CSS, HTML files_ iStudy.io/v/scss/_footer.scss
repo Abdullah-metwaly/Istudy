@@ -1,0 +1,122 @@
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  @include mobile-only() {
+    text-align: center;
+  }
+  li {
+    float: left;
+    padding: 5px 15px;
+    @include mobile-only() {
+      padding: 5px;
+        float: none;
+        display: inline-block;
+    }
+    a {
+      font-size: 16px;
+      @include mobile-only() {
+        font-size: 12px;
+      }
+      color: #3c3c3c;
+    }
+  }
+}
+
+.footer-logo {
+  border-right: 1px solid #f1efef;
+  margin-right: -20px;
+}
+
+footer {
+  border-top: 15px solid #000;
+  padding-top: 10px;
+}
+
+.social-icons {
+  list-style: none;
+  padding:0;
+  margin: 0;
+
+  @include mobile-only() {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  li {
+    float: right;
+    @include mobile-only() {
+      float: none;
+      display: inline-block;
+    }
+    vertical-align: top;
+    height: 50px;
+    a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 5px;
+
+      .fa {
+        padding:10px 14px;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition: .5s;
+        border-radius: 50%;
+
+        -webkit-transition: -webkit-transform .8s ease-in-out;
+        transition:         transform .8s ease-in-out;
+
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 19px;
+
+        &:hover {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+
+      }
+
+      .fa-facebook {
+        background-color: #3d5b99;
+      }
+      .fa-facebook:hover {
+        background-color: #322f30;
+      }
+      .fa-twitter {
+        background-color: #00aced;
+      }
+      .fa-twitter:hover {
+        background-color: #322f30;
+      }
+      .fa-rss {
+        background-color: #eb8231;
+      }
+      .fa-rss:hover {
+        background-color: #322f30;
+      }
+      .fa-youtube {
+        background-color: #e64a41;
+      }
+      .fa-youtube:hover {
+        background-color: #322f30;
+      }
+      .fa-linkedin {
+        background-color: #322f30;
+      }
+      .fa-linkedin:hover {
+        background-color: #322f30;
+      }
+      .fa-google-plus {
+        background-color: #e25714;
+      }
+      .fa-google-plus:hover {
+        background-color: #322f30;
+      }
+
+    }
+  }
+}

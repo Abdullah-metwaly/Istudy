@@ -1,0 +1,207 @@
+.material-form {
+
+  $inputColor: #007ACC;
+
+
+  .form-group {
+    margin: 0;
+    > label {
+      font-family: $Poppings-Light;
+      font-size: 14px;
+      text-align: left;
+      color: #7a7992;
+      transition: all .3s cubic-bezier(.64, .09, .08, 1);
+      margin: 15px 0 15px;
+      display: inline-block
+    }
+    .checkbox {
+      color: #7a7992;
+      font-family: $Poppings-Light;
+    }
+  }
+
+  .col-md-12, .col-md-6 {
+    label {
+      font-family: $Poppings-Light;
+      color: #898989;
+      font-weight: 300;
+      transition: all .3s cubic-bezier(.64, .09, .08, 1);
+      margin: 30px 0 30px;
+      display: inline-block;
+    }
+    &.textarea {
+      label {
+        margin: 0;
+      }
+    }
+  }
+
+  .coupon-container {
+    label {
+      margin: 30px;
+    }
+  }
+
+  .floating-label {
+    -webkit-transform: translateY(-18px);
+    transform: translateY(-18px);
+    position: absolute
+  }
+
+  .label-active {
+    -webkit-transform: translateY(-38px);
+    transform: translateY(-38px);
+    font-size: 10px;
+    color: #898989;
+  }
+
+  .label-required:before {
+    content: '*';
+    color: $inputColor;
+    position: absolute;
+    margin-left: -10px
+  }
+
+
+  /* ============ INPUT =========== */
+
+  input,
+  input[type=email],
+  input[type=text],
+  input[type=datepicker],
+  textarea,
+  input[type=textarea],
+  input[type=password],
+  input[type=number] {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 10px 0;
+    border-bottom: solid 1px #d2d2d2;
+    will-change: background-position;
+    transition: all .3s cubic-bezier(.64, .09, .08, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, $inputColor 96%);
+    background-position: -1920px 0;
+    background-size:100%;
+    background-repeat: no-repeat;
+    color: #000;
+    font-size: 14px;
+  }
+
+  input.input-active,
+  input:focus,
+  input[type=email].input-active,
+  input[type=email]:focus,
+  input[type=text].input-active,
+  input[type=text]:focus,
+  input[type=datepicker].input-active,
+  input[type=datepicker]:focus,
+  textarea.input-active,
+  textarea:focus,
+  input[type=textarea].input-active,
+  input[type=textarea]:focus,
+  input[type=password].input-active,
+  input[type=password]:focus,
+  input[type=number].input-active,
+  input[type=number]:focus {
+    background-position: 0 0;
+    box-shadow: none;
+    outline: 0;
+  }
+
+  input.input-active,
+  input:focus:after,
+  input[type=email].input-active,
+  input[type=email]:focus:after,
+  input[type=text].input-active,
+  input[type=text]:focus:after,
+  input[type=datepicker].input-active,
+  input[type=datepicker]:focus:after,
+  textarea.input-active,
+  textarea:focus:after,
+  input[type=textarea].input-active,
+  input[type=textarea]:focus:after,
+  input[type=password].input-active,
+  input[type=password]:focus:after,
+  input[type=number].input-active,
+  input[type=number]:focus:after {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 30px;
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 10px 0;
+    border-bottom: solid 1px #d2d2d2;
+    will-change: background-position;
+    transition: all .3s cubic-bezier(.64, .09, .08, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #d2d2d2 96%);
+    background-position: -1920px 0;
+    background-size:100%;
+    background-repeat: no-repeat;
+    color: #000;
+    font-size: 14px;
+  }
+
+  input::-webkit-input-placeholder,
+  input[type=email]::-webkit-input-placeholder,
+  input[type=text]::-webkit-input-placeholder,
+  input[type=datepicker]::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder,
+  input[type=textarea]::-webkit-input-placeholder,
+  input[type=password]::-webkit-input-placeholder,
+  input[type=number]::-webkit-input-placeholder {
+    transition: all .2s cubic-bezier(.64, .09, .08, 1);
+  }
+
+  input[type=radio]:after,
+  input[type=radio]:before {
+    content: '';
+    position: absolute;
+    transition: all .3s cubic-bezier(.64, .09, .08, 1)
+  }
+
+  input[type=checkbox] {
+    float: left;
+  }
+
+  input[type=radio] {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    margin: 0 8px;
+    cursor: pointer
+  }
+
+  input[type=radio]:before {
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid $inputColor;
+    display: inline-block;
+    top: -5px;
+    left: -8px;
+    background-image: radial-gradient(circle, $inputColor 60%, #fff 70%);
+    background-size: 0;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    will-change: background-size;
+    z-index: 2
+  }
+
+  input[type=radio]:after {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%
+  }
+
+  input[type=radio]:checked:before {
+    background-size: 14px 14px
+  }
+
+
+}

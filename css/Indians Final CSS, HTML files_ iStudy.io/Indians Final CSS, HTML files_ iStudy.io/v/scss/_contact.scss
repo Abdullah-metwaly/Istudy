@@ -1,0 +1,51 @@
+.contact-form {
+
+  margin-bottom: 50px;
+
+  p.description {
+    font-family: $Lato;
+    color: #999999;
+    font-size: 18px;
+    padding: 15px 0;
+  }
+
+  .form-control {
+    background: #f9f9f9;
+    padding: 23px;
+    border-radius: 0;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0;
+  }
+
+  .line-title {
+    font-family: $Poppings-Medium;
+    font-size: 18px;
+    color: #333333;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .contact-phone {
+    font-family: $Lato;
+    color: #777777;
+    font-size: 16px;
+    padding: 15px 0;
+  }
+
+  .last {
+    p {
+      border-bottom: 1px solid #e0e0e0;
+    }
+  }
+
+  .btn-submit {
+    background: #c8cace;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 0;
+    padding: 15px 30px;
+    text-transform: uppercase;
+  }
+
+}
