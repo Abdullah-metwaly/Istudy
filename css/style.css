@@ -382,6 +382,7 @@ margin-top: 5px;}
 {
 	padding-right: 20px;
 	padding: 13px;
+	direction: ltr;
 	color: #949599;
 }
 /* end courses section */
@@ -849,7 +850,9 @@ margin-bottom: 60px;}
 .invite .container{padding: 50px;}
 .invite .row{margin: auto;text-align: right;width: 400px;}
 .invite .row form > input{border: none;border-radius: 0;margin-bottom: 11px;border-bottom: 1px solid #007bff;margin-top: 13px;}
-.invite .row form > .btn{width:175px;border-radius: 8px;}
+.invite .row form > div{width: 100%;text-align: center;}
+.invite .row form > div > p{padding: 10px 0 10px 0;}
+.invite .row form > div > .btn{width:175px;border-radius: 8px;display: block;margin: auto;}
 /* End our invite page */
 /* start our services page  */
 .service-term .heading,.partner-term .heading{text-align: center;background-color: #169dd8;color: #fff;height: 120px;box-shadow: #169dd8;box-shadow: 0px 20px 28px -8px rgba(0,0,0,0.51);}
