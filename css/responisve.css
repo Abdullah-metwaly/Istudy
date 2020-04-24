@@ -193,6 +193,7 @@ Small Screens which contain min and max interval
 	.team-work ul{width: 325px;}
 	.team-work ul li{font-size: 19px;}
 	.footer{position: relative !important;}
+	.My-courses .recommend .left-rec .container .box p{text-align: center;}
 	.footer .row .col-md-6{margin-top: 20px;}
     .footer .footerDown p,
     .footer .footerDown .socialFooter,
