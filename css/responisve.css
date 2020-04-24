@@ -172,6 +172,26 @@ Small Screens which contain min and max interval
 	.One-card .center-head::before, .One-card .center-head::after{display: none;}
 	.One-card .container .feat .span{margin-left: 5px;}
 	.One-card .container .feat .pay span:nth-child(2){padding-right: 100px;}
+	.parent-setting .row .profile-overview .profile{text-align: center;}
+	.parent-setting .row .profile-overview{height:515px;}
+	.parent-setting .row .profile-overview .profile .socialFooter{margin-left: 0;text-align: center;float: none;}
+	.parent-setting{padding: 42px;}
+	.parent-setting .row .inside .img, .parent-setting .row .inside{width: 261px !important;}
+	.parent-setting .row .profile-overview .tap > div{width: 90px;height: 90px;margin-left: 13px;font-size: 19px;}
+	.parent-setting .row .inside{margin-bottom: -177px;}
+	.student-sign form > input, .parent-sign form > input{width: 85% !important;}
+	.student-sign form > button, .parent-sign form button{width: 55%;}
+	.payment .line > input{width:100% !important;}
+	.student-login form > input, .parent-login form > input{width: 85% !important;}
+	.student-login form > button, .parent-login form > button{width: 55%;}
+	.student-login .heading, .parent-login .heading{font-size: 35px;}
+	.study-meet .head .h1{font-size: 25px;}
+	.study-features{height: 30%;}
+	.study-meet .head .img{margin-top: 10px;width: 245px;}
+	.study-features .head .h1{margin-top: 7px;}
+	.study-features .head .span{margin-top: 36px;}
+	.team-work ul{width: 325px;}
+	.team-work ul li{font-size: 19px;}
 	.footer{position: relative !important;}
 	.footer .row .col-md-6{margin-top: 20px;}
     .footer .footerDown p,
