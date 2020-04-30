@@ -946,10 +946,11 @@ margin-bottom: 60px;}
     margin-bottom: 5px;
 }
 
-.footer .parg a
+.footer .parg span
 {
-	font-family: "helveticaneueltarabic-bold";
-	color:#00652c;
+    color: #159dd7;
+    font-size: 15px;
+	border-bottom: 1px solid #159dd7;
 }
 
 .footer .title
