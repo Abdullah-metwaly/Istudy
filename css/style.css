@@ -875,7 +875,8 @@ margin-bottom: 60px;}
 .One-card .center-head::after{margin-left: 14%;}
 .One-card .container .card-pay{text-align: center;position: relative;border-bottom: 4px solid #FFD328;padding-bottom: 20px;margin-bottom: 20px;}
 .One-card .container .card-pay > img{width: 180px;}
-.One-card .card-pay .img{width: 666px !important;}
+.One-card .card-pay .img{width: 323px !important;}
+.One-card .card-pay .under-pay{direction: rtl;margin-top: 17px;text-align: center;font-size: 25px;margin-bottom: 10px;}
 .One-card .container .card-pay::after{top: 100%;left: 50%;border: solid transparent;content: " ";height: 0;width: 0;position: absolute;pointer-events: none;border-color: rgba(136, 183, 213, 0);border-top-color: #FFD328;border-width: 30px;margin-left: -30px;}
 .One-card .container .feat{text-align: right;}
 .One-card .container .feat .span{background-color: #000;color: #fff;width: 100px;float: right;font-size: 50px;line-height: 100px;text-align: center;}
