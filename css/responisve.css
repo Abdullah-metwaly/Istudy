@@ -125,7 +125,7 @@ Small Screens which contain min and max interval
 /* Mobile & Tablets */
 @media (max-width: 767px) 
 {
-	
+	.intro{height: 27%;}
 	.invite .container{padding: 10px 0 20px 0;}
 	.invite .row{width: 182px;}
 	.invite .row form > p{text-align: center;}
@@ -153,7 +153,7 @@ Small Screens which contain min and max interval
 	.bx-slider .bxslider .row{margin-left: 48px;}
 	.bx-slider .bxslider .row .sub-box-dec > p{text-align: center;}
 	.bx-slider .bxslider .row .sub-box-dec .left-des{direction: rtl;}
-	.section-stages{margin-top: 5px;}
+	.section-stages{margin-top: 0;}
 	.My-courses .progress-section p{margin: 2px 2px 34px 0;}
 	.My-courses .progress-section p .rest-course{margin-right:27px;float: none;margin-left: 0;}
 	.My-courses .progress-section .progress{margin-right: 6px;}
